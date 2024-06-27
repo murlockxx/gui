@@ -15,7 +15,7 @@ class ParameterShowing(QWidget):
         layout = QVBoxLayout()
         self.table = QTableWidget(self)
         self.table.setColumnCount(4)  # Assuming you want columns for 'Hava Hızı', 'Yer Hızı', 'Enlem', 'Boylam'
-        self.table.setHorizontalHeaderLabels(['Hava Hızı', 'Yer Hızı', 'Enlem', 'Boylam'])
+        self.table.setHorizontalHeaderLabels([ 'Enlem', 'Boylam','İrtifa])
         self.table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
 
         self.update_table()
